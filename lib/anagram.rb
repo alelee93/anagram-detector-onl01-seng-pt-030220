@@ -10,8 +10,8 @@ class Anagram
   def match(anagrams)
 
     anagrams.find_all do |anagram|
-      letters_anagram = anagram.split(/[a-zA-z]/).sort
-      letters_word = word.split(/[a-zA-z]/).sort
+      letters_anagram = anagram.split("").sort
+      letters_word = word.split("").sort
       letters_anagram == letters_word
       binding.pry
     end
