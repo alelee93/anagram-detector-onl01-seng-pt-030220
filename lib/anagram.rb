@@ -13,7 +13,7 @@ class Anagram
       letters_anagram = anagram.split("").sort
       letters_word = word.split("").sort
       letters_anagram == letters_word
-      binding.pry
+     # binding.pry
     end
         
   end
